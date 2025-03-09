@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/gameys/static/css/main.d6fed4bf.css",
+    "main.js": "/gameys/static/js/main.00d66094.js",
+    "static/js/453.45e1ae12.chunk.js": "/gameys/static/js/453.45e1ae12.chunk.js",
+    "static/media/bg3.jpg": "/gameys/static/media/bg3.bfbbb86de6230913962f.jpg",
+    "index.html": "/gameys/index.html",
+    "main.d6fed4bf.css.map": "/gameys/static/css/main.d6fed4bf.css.map",
+    "main.00d66094.js.map": "/gameys/static/js/main.00d66094.js.map",
+    "453.45e1ae12.chunk.js.map": "/gameys/static/js/453.45e1ae12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6fed4bf.css",
+    "static/js/main.00d66094.js"
+  ]
+}
