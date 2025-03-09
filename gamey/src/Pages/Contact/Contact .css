@@ -1,0 +1,145 @@
+.contact-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.375rem 0.375rem 0.375rem rgba(0, 0, 0, 0.4);
+  }
+  .page-title {  
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-weight: 500;
+  }
+  
+  .subtext {
+    text-align: center;
+    color: var(--text-secondary);
+    margin-bottom: 3rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+  
+  .contact-form {
+    color: white;
+    background-color: var(--bg-secondary);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  .contact-form > h2{
+    font-weight: 500;
+  }
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+  
+  .input{
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background-color: rgb(65, 63, 63);
+    color: var(--text-primary);
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .input:focus{
+    outline: none;
+    border-color: var(--accent);
+  }
+  
+  .butto {
+    background-color: rgb(65, 63, 63);
+    background-color: g;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 500;
+  }
+  
+  .butto:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .info-card {
+    background-color: var(--bg-secondary);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .info-card h3 {
+    color:rgb(99, 94, 94);
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  
+  .contact-method {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(98, 0, 234, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    color: var(--accent);
+    font-size: 1.2rem;
+  }
+  
+  .details {
+    flex: 1;
+  }
+  .details p strong{
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .details p {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+  
+  

@@ -1,0 +1,279 @@
+:root {
+    --bg-primary: #121212;
+    --bg-secondary: #1e1e1e;
+    --text-primary: #ffffff;
+    --text-secondary: #b3b3b3;
+    --accent: #BB86FC;
+    --accent2: #03DAC5;
+    --gradient-start: #6200ea;
+    --gradient-end: #03DAC5;
+  }
+.mem-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: 'Work Sans', sans-serif;
+}
+.memory-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+   
+    color: var(--text-primary);
+    padding: 0rem;
+
+}
+.mem-title-text span {
+    background: linear-gradient(45deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+.mem-title-text{
+    font-size: 2rem;
+    line-height: 1.2;
+    color: var(--text-primary);
+    margin-bottom: 0.1rem;
+    text-align: center;
+}
+.subtitle {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .logo {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--accent);
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .logo-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .logo-icon::before {
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 14px;
+    background-color: red;
+    bottom: 0;
+    left: 1px;
+    border-radius: 0 0 14px 14px;
+  }
+  
+  .logo-icon::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 2px solid #000;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  footer {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: var(--text-secondary);
+  }
+  .landing-container{
+    display: flex;
+    max-width: 900px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    padding-top: 2rem;
+    margin: 0;
+    background-color: var(--bg-primary);
+  }
+  .difficulty-label {
+    color: #a479e5;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+.features {
+    padding: 3rem 2rem;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--accent);
+  }
+  
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .feature-card {
+    background-color:black;
+    padding: 2rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  .feature-icon {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(187, 134, 252, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+  
+  .feature-title {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--accent2);
+  }
+  
+  .feature-desc {
+    color: var(--text-secondary);
+    line-height: 1.6;
+  }
+  .timer {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: bold;
+    color: var(--accent);
+  }
+  .game-board {
+    display: flex;
+    flex-direction:rown;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 1000px;
+    
+}
+
+  .memory-card-display {
+    width: 10rem;
+    height: 10rem;
+    background-color: var(--bg-secondary);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border: 2px solid transparent;
+  }
+  
+  .memory-card-display:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+    border-color: var(--accent);
+  }
+  
+  .memory-card-display.flipped {
+    transform: rotateY(180deg);
+    background-color: #2d2d2d;
+  }
+  
+  .memory-card-display.matched {
+    border: 2px solid var(--success);
+    box-shadow: 0 0 15px var(--success);
+  }
+  .game-card-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh; /* Ensures at least full viewport height */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 2rem;
+  }
+  .game-won-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-secondary);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem auto;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .game-won-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--accent);
+    line-height: 1.4;
+  }
+  
+  .game-won-container button {
+    background: linear-gradient(45deg, var(--accent), var(--accent2));
+    color: var(--text-primary);
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .game-won-container button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.3);
+  }
