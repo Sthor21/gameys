@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# 🎮 Gamey
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Gamey** is a web application that features a collection of fun and engaging browser-based games.  
+Built with **React**, it uses modern web development practices to deliver an enjoyable user experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
+[Click here to play Gamey](https://sthor21.github.io/gameys/)  
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🕹️ Games
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The platform currently hosts the following games:
 
-### `npm test`
+- **[Hangman](./src/games/hangman)**  
+  A classic word-guessing game where players try to guess a hidden word by suggesting letters within a certain number of attempts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **[Memory Game](./src/games/memory-game)**  
+  A card game where players need to find pairs of matching cards by flipping them over.
 
-### `npm run build`
+- **[Tenzies](./src/games/tenzies)**  
+  A fast-paced dice game where the objective is to roll and re-roll dice until all of them show the same number.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> ⚠️ _Note: Please update the file paths above if your project structure is different._
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Technologies Used
 
-### `npm run eject`
+- [React](https://react.dev/) – A JavaScript library for building user interfaces  
+- [React Router](https://reactrouter.com/) – For handling navigation and routing  
+- [Lucide React](https://lucide.dev/) – Beautiful and consistent icons  
+- [clsx](https://github.com/lukeed/clsx) – Utility for conditional className strings  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Follow these steps to set up the project locally.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### ✅ Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) and **npm** installed.  
 
-## Learn More
+### 📥 Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone the repo
+git clone https://github.com/Sthor21/gameys.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Navigate to the project directory
+cd gameys
 
-### Code Splitting
+# Install dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# To deploy, run:
+npm run deploy
